@@ -1,0 +1,33 @@
+
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.logo {
+    height: 60px;
+}
+.flags img {
+    height: 24px;
+    margin: 0 5px;
+}
+#painel {
+    padding: 20px;
+}
+canvas {
+    margin-top: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+#config {
+    margin-top: 20px;
+}
+button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #444;
+    color: white;
+}

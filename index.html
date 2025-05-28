@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GimoTrader</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Logo GimoTrader" class="logo" />
+        <div class="flags">
+            <img src="assets/icons/mozambique.png" alt="Moçambique" />
+            <img src="assets/icons/brazil.png" alt="Brasil" />
+            <img src="assets/icons/angola.png" alt="Angola" />
+            <img src="assets/icons/portugal.png" alt="Portugal" />
+        </div>
+    </header>
+    <main>
+        <div id="painel">
+            <h2>Saldo: <span id="saldo">0.00 USD</span> | Conta: <span id="conta">Virtual</span></h2>
+            <canvas id="graficoBarras"></canvas>
+            <div id="config">
+                <select id="estrategia">
+                    <option value="estrategia1">Estratégia 1</option>
+                    <option value="estrategia2">Estratégia 2</option>
+                </select>
+                <input type="number" id="stake" placeholder="Stake" value="0.35" />
+                <button id="configurar">⚙️ Configurar</button>
+                <button id="play">▶ Iniciar</button>
+                <button id="stop">⏹ Parar</button>
+            </div>
+            <div id="notificacoes"></div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
